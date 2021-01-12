@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: system-ui;
+  background: white;  
+  color: #000033;
+/*   text-align: center; */
+}
+
+
+#main {
+  
+  background: #ddf3ff;
+  border-radius: 5px;
+  margin-top: 80px;
+
+
+}
+
+#title {
+  text-align:center;
+  padding-top: 20px; 
+  font-size: 50px;
+
+}
+
+#para {
+  text-align:center;
+  margin-bottom: 25px;
+}
+
+
+#img-div {
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 58px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px; 
+  text-align:center;
+  border-radius: 10px;
+
+}
+
+#image {
+  
+  max-width:  80% ;
+  height: auto;
+  border: solid #cce0ff 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #3366ff; 
+
+}
+
+#img-caption {
+  padding-bottom: 15px;
+}
+
+
+/*____________________________________________________________________*/
+
+
+#tribute-info {
+  text-align:center;
+  margin-bottom: 35px;
+  font-size: 2em;
+  
+}
+
+#bio-main-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#timeline {
+
+ width: 700px;
+/* margin-left: auto;
+ margin-right: auto;*/
+/* display: flex;*/
+/* flex-wrap: wrap;
+ display: inline-block;*/
+ padding: 0px 45px;
+
+}
+
+#quote {
+  font-family: arial;
+}   
+
+footer{
+  text-align:center;
+  padding-bottom: 10px;
+
+  padding-top: 10px;
+  height: 70px;
+}
+
+/*
+_________________________________________________________________*/
+
+@media (max-width:800px) {
+
+
+#timeline {
+
+  font-size: 15px;
+
+
+}
+  }
